@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="weekofyear <= 15.5\nmse = 357.8\nsamples = 876\nvalue = 40.1"] ;
+1 [label="dayofyear <= 36.5\nmse = 493.5\nsamples = 266\nvalue = 46.8"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="dayofweek <= 6.5\nmse = 391.3\nsamples = 102\nvalue = 38.2"] ;
+1 -> 2 ;
+3 [label="mse = 364.0\nsamples = 89\nvalue = 36.5"] ;
+2 -> 3 ;
+4 [label="mse = 411.2\nsamples = 13\nvalue = 51.9"] ;
+2 -> 4 ;
+5 [label="weekofyear <= 7.5\nmse = 483.7\nsamples = 164\nvalue = 51.9"] ;
+1 -> 5 ;
+6 [label="mse = 468.8\nsamples = 37\nvalue = 58.0"] ;
+5 -> 6 ;
+7 [label="mse = 473.8\nsamples = 127\nvalue = 50.1"] ;
+5 -> 7 ;
+8 [label="dayofyear <= 305.5\nmse = 273.5\nsamples = 610\nvalue = 37.3"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="weekofyear <= 31.5\nmse = 216.8\nsamples = 482\nvalue = 34.6"] ;
+8 -> 9 ;
+10 [label="mse = 218.3\nsamples = 274\nvalue = 37.3"] ;
+9 -> 10 ;
+11 [label="mse = 193.6\nsamples = 208\nvalue = 31.2"] ;
+9 -> 11 ;
+12 [label="dayofyear <= 358.5\nmse = 357.8\nsamples = 128\nvalue = 47.5"] ;
+8 -> 12 ;
+13 [label="mse = 297.5\nsamples = 115\nvalue = 45.0"] ;
+12 -> 13 ;
+14 [label="mse = 330.6\nsamples = 13\nvalue = 70.2"] ;
+12 -> 14 ;
+}
