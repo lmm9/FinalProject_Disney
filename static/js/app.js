@@ -47,7 +47,7 @@ function runEnter() {
   console.log(inputValue);
   console.log(tableData);
 
-  var filteredData = tableData.filter(sighting=> sighting.datetime === inputValue);
+  var filteredData = tableData.filter(sighting=> sighting.date === inputValue);
 
   console.log(filteredData);
   tbody.html("")

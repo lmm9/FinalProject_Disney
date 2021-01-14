@@ -74,7 +74,7 @@ select {
 }
 
 #table-area th {
-  text-align: center;
+  text-align: left;
 }
 
 #table-area th:first-child,
@@ -175,14 +175,14 @@ select {
 
   #table-area tbody td {
     display: block;
-    text-align: center;
+    text-align: left;
   }
 
   #table-area tbody td::before {
     display: block;
     font-size: 1.4em;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     content: attr(data-th);
   }
 
