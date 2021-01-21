@@ -20,7 +20,7 @@ We used metadata set from [Touring Plans](https://www.touringplans.com/walt-disn
 
 ## The Story
 
-    The dilemma of not being able to travel with friends and family for vacation to Disney Land.  The customer selects a date receives the average wait times of three rides in Safari Park. 
+The dilemma of not being able to travel with friends and family for vacation to Disney Land.  The customer selects a date receives the average wait times of three rides in Safari Park. 
 
 
 ## Enjoy!
