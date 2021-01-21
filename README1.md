@@ -11,12 +11,11 @@ Let's plan a post Covid family getaway to Disney Land's Animal Kingdom!  This we
 We used metadata set from [Touring Plans](https://www.touringplans.com/walt-disney-world/crowd-calendar/#DataSets) 
 * Extracted a CSV
    * Loaded into Juypter Notebook
-        Cleaned dataset with Python
+        Cleaned dataset with Python and
         Machine Learning to predict wait times
-        Converted back into a CSV
+        converted back into a CSV
    * Converted ML CSV into JSON
-   * Loaded JSON onto Web Site with HTML,CSS
-   * Java Script
+   * Loaded JSON onto Web Site with HTML,CSS, Java Script 
 
 ## The Story
 
